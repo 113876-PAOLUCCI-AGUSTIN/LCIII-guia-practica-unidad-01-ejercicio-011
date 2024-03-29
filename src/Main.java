@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Ingrese el tiempo en segundos de los restantes 9 pilotos...");
         Double[] restantesTiempos = new Double[9];
 
-        int contadorClasificados = 0;
+        int contadorClasificados = 1; // INICIA EN UNO PORQUE EL GANADOR DISPUTARÁ LA FINAL.
         for (int i = 0; i < restantesTiempos.length; i++) {
             Scanner ingreso = new Scanner(System.in);
             Double tiempo = ingreso.nextDouble();
